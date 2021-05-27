@@ -4,6 +4,8 @@ let palabrasParesModificadas = modificaPares(
   (elemento) => elemento.charAt(0).toUpperCase() + elemento.slice(1)
 );
 
+console.log(palabrasParesModificadas);
+
 /**
  * Funcion que cambia la primera letra de cada palabra a mayúscula si su posicion en la array es par
  * @param {string[]} palabras palabras que modificar
@@ -39,5 +41,3 @@ function checkPar(number) {
     return false;
   }
 }
-
-console.log(palabrasParesModificadas);
